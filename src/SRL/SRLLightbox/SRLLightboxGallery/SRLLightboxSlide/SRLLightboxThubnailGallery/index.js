@@ -20,7 +20,7 @@ const SRLLightboxThubnailGalleryComponent = ({
             className={`SRLThumb SRLThumb${index} ${
               currentId === i.id ? "SRLSelected" : ""
             }`}
-            style={{ backgroundImage: `url("${i.src}")` }}
+            style={{ backgroundImage: `url("${i.thumb}")` }}
           />
         );
       })}
